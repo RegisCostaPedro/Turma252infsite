@@ -1,0 +1,82 @@
+body {
+  background-color: black;
+}
+.maumau {
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  margin: auto;
+  
+}
+
+#logintitle {
+  margin-top: 5px;
+  text-align: center;
+  text-shadow: none;
+}
+
+#containerLogin  {
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  left: 50%;
+ margin-top:  100px;;
+  width: 300px;
+
+position: relative;
+  transform: translate(-50%, -50%);
+  background-color: rgba(31, 10, 73, 0.171);
+
+
+  border: 1px solid #5fb0b7;
+  border-bottom: 2px solid #79f3c9;
+  border-right: 3px solid #79f3c9;
+  color: white;
+}
+#containerCadastro{
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  left: 50%;
+ margin-top:  100px;;
+  width: 360px;
+
+position: relative;
+  transform: translate(-50%, -50%);
+  background-color: rgba(31, 10, 73, 0.171);
+
+
+  border: 1px solid #5fb0b7;
+  border-bottom: 2px solid #79f3c9;
+  border-right: 3px solid #79f3c9;
+  color: white;
+}
+
+
+
+input {
+  border: none;
+  background: none;
+  border-bottom: 1px solid #5fb0b7;
+  display: flex;
+  margin-bottom: 40px;
+  color: rgb(255, 255, 255);
+}
+
+::placeholder {
+  color: rgb(255, 255, 255);
+}
+
+button {
+  margin-bottom: 10px;
+  background-color: #5fb0b7;
+
+  color: white;
+
+  transition: 0.3s ease-in;
+}
+
+button:hover {
+  color: rgb(255, 255, 255);
+}
+
